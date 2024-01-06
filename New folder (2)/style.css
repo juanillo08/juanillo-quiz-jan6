@@ -1,0 +1,80 @@
+.container img{
+    width: 100%;
+    height: 38rem;
+    position: relative;
+}
+.header .branding img {
+    position: absolute;
+    bottom: 33rem;
+    padding-left: 2rem;
+}
+.header .header_nav ul {
+    display: flex;
+    gap: 2.8rem;
+    bottom: 35rem;
+    position: absolute;
+    padding-left: 62rem;
+    list-style: none;
+}
+.header .header_nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.destination h1 {
+    text-align: center; 
+}
+.destination p {
+    text-align: center;
+}
+.choose img {
+  padding-left: 1rem;  
+}
+
+.choose_item .pic{
+    width: 95%;  
+}
+.choose_item h4 {
+    padding-left: 1.5rem;
+}
+.choose_item .orasan {
+    width: 1rem;
+    padding-left: 4%;
+    position: relative;
+    bottom: 1rem;
+}
+.choose_item h5{
+    position: absolute;
+    padding-left: 3rem;
+    
+    
+}
+
+.choose {
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+}
+
+.detail a {
+    border: 1px solid yellow;
+    border-radius: 1rem;
+    background-color: yellow;
+    align-items: baseline;
+}
+.country h2 {
+    position: relative;
+    text-align: center;
+    padding-left: 30 rem;
+}
+.tour img {
+    position: relative;
+    width: 190%;
+    height: 30%;
+}
+.tour h2
